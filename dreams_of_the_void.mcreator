@@ -1,0 +1,86 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZynnMoss",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zynn_moss"
+    },
+    {
+      "name": "ZynnStalk",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zynn_stalk"
+    },
+    {
+      "name": "Zynnpatch",
+      "type": "structure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zynnpatch"
+    },
+    {
+      "name": "ZynnpatchOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zynnpatch_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.dreams_of_the_void.zynn_stalk": "Zynn Stalk",
+      "block.dreams_of_the_void.zynn_moss": "Zynn Moss"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dreams_of_the_void",
+    "modName": "Dreams of the Void",
+    "version": "1.0.0",
+    "author": "dooli, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.dreamsofthevoid",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

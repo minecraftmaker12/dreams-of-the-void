@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreams_of_the_void:blocks/end",
+    "up": "dreams_of_the_void:blocks/zynn",
+    "north": "dreams_of_the_void:blocks/zynn2",
+    "east": "dreams_of_the_void:blocks/zynn2",
+    "south": "dreams_of_the_void:blocks/zynn2",
+    "west": "dreams_of_the_void:blocks/zynn2",
+    "particle": "dreams_of_the_void:blocks/end"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dreams_of_the_void:blocks/stalk",
+    "particle": "dreams_of_the_void:blocks/stalk"
+  }
+}
